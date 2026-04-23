@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:idealtrash.com)",
+      "Bash(curl -s \"https://idealtrash.com/\")",
+      "Bash(grep -E \"\\(--color|background-color|#[0-9a-fA-F]{3,6}|stylesheet|\\\\.css\\)\")",
+      "Bash(curl -s \"https://idealtrash.com/cdn/shop/t/2/assets/itr-css-all.css?v=161835613622650514511696006737\")",
+      "Bash(grep -E \"\\(color|background|#[0-9a-fA-F]{3,6}|font-family|rgba\\)\")",
+      "Bash(grep -v \"^//\")",
+      "Bash(curl -s \"https://idealtrash.com/cdn/shop/t/2/assets/timber.css?v=171975441545481705601696004108\")",
+      "Bash(grep -E \"\\(color|background|#[0-9a-fA-F]{3,6}|font-family\\)\")",
+      "Bash(grep -oE \"#[0-9a-fA-F]{3,6}\")",
+      "Bash(grep -E \"#[0-9a-fA-F]{3,6}\")",
+      "Bash(identify \"/c/Users/esutt/wdsequip-rebuild/Ideal-Compactors-&-Balers-Logo-FPO.jpg\")",
+      "Bash(curl *)",
+      "Bash(python3 *)",
+      "Bash(python *)",
+      "Bash(node *)"
+    ]
+  }
+}
