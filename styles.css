@@ -219,14 +219,14 @@ p  { color: var(--gray-700); }
 .has-dropdown { position: relative; }
 .dropdown {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 0;
   min-width: 220px;
   background: var(--white);
   border: 1px solid rgba(0,0,0,.08);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-lg);
-  padding: 8px 0;
+  padding: 16px 0 8px;
   opacity: 0;
   pointer-events: none;
   transform: translateY(-8px);
